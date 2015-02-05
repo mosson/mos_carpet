@@ -1,5 +1,6 @@
-require "mos_carpet/version"
+require 'mos_carpet/version'
+require 'mos_carpet/markdown_renderer'
+require 'mos_carpet/markdown_processor'
 
 module MosCarpet
-  # Your code goes here...
 end
