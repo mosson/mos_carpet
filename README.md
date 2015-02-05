@@ -20,6 +20,7 @@ And then execute:
 
 ```
 MosCarpet::MarkdownProcessor.to_html('hello, world! and youtube(1234)')
+  # => "<p>hello, world! and \n      <div class=\"video-container\">\n        <iframe src=\"//www.youtube.com/embed/1234\"\n                frameborder=\"0\"\n                allowfullscreen></iframe>\n      </div>\n    </p>\n"
 ```
 
 
