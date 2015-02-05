@@ -1,26 +1,27 @@
 # MosCarpet
 
-TODO: Write a gem description
+redcarpetのマークダウンに独自に書式を追加したライブラリ
 
 ## Installation
+
+
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'mos_carpet'
+gem 'mos_carpet', github: 'https://github.com/mosson/mos_carpet
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install mos_carpet
-
 ## Usage
 
-TODO: Write usage instructions here
+```
+MosCarpet::MarkdownProcessor.to_html('hello, world! and youtube(1234)')
+```
+
 
 ## Contributing
 
